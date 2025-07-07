@@ -1,0 +1,59 @@
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.log
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# SQLite DB (optional — remove this if you want it in Git)
+*.db
+
+# PyCharm
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+.code-workspace
+
+# Test output
+htmlcov/
+.tox/
+.coverage
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Pip and Poetry
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Other
+.env
+.env.*
+server.log

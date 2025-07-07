@@ -1,0 +1,32 @@
+# Don't copy these files into Docker image
+
+# OS/IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Git
+.git
+.gitignore
+
+# Local config/secrets
+.env
+*.db
+
+# Tests, coverage
+tests/
+*.log
+*.coverage
+htmlcov/
+coverage.xml
+pytest_cache/
