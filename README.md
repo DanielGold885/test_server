@@ -34,7 +34,9 @@ test_app/
 ├── client/
 │   ├── __init__.py
 │   └── api_client.py
-├── test_client_demo.py
+├── tests/
+│   ├── __init__.py
+│   └── test_client.py
 ├── requirements.txt
 ├── Dockerfile
 ├── .gitignore
@@ -103,15 +105,15 @@ print(client.get_user("123456789"))
 
 ## 🔧 Future Improvements
 
-| Area         | Suggestion                                                                  |
-|--------------|-----------------------------------------------------------------------------|
-| Auth         | Add JWT or API key authentication                                           |
-| Testing      | Add pytest-based unit and integration tests                                 |
-| CI/CD        | Integrate GitHub Actions or Jenkins to automate testing and deployment      |
-| DB           | Swap SQLite for PostgreSQL or MySQL in production environments              |
-| Logging      | Integrate with centralized logging tools (e.g., Logstash, coralogix etc...) |
-| Deployment   | Deploy via Docker to dynamic EC2 or ECS; optionally expose with a domain    |
-| Public Access| Set up remote access to API for automated remote test runs                  |
-| Client SDK   | Package and publish the Python client as a pip-installable module           |
+| Area         | Suggestion                                                                              |
+|--------------|-----------------------------------------------------------------------------------------|
+| Auth         | Add JWT or API key authentication                                                       |
+| Testing      | Add additional pytest-based unit and integration tests (Maybe units with a mock server) |
+| CI/CD        | Integrate GitHub Actions or Jenkins to automate testing and deployment                  |
+| DB           | Swap SQLite for PostgreSQL or MySQL in production environments                          |
+| Logging      | Integrate with centralized logging tools (e.g., Logstash, coralogix etc...)             |
+| Deployment   | Deploy via Docker to dynamic EC2 or ECS; optionally expose with a domain                |
+| Public Access| Set up remote access to API for automated remote test runs                              |
+| Client SDK   | Package and publish the Python client as a pip-installable module                       |
 
 
