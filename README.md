@@ -9,7 +9,7 @@ This project simulates a RESTful product API and a Python client interface for a
 - ✅ **SQLite** for persistent user storage  
 - ✅ **Python client** as the interface for automation developers  
 - ✅ **Logging** with file and console outputs  
-- ✅ **Comprehensive input validation** (ID, phone, non-empty fields)  
+- ✅ **Input validation** (ID, phone, non-empty fields)  
 - ✅ **Error handling** with meaningful status codes  
 - ✅ **Modular design** (routes, models, schemas, DB session)  
 - ✅ **Dockerized** for portability  
